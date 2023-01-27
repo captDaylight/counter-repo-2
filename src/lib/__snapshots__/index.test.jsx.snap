@@ -1,0 +1,31 @@
+// Vitest Snapshot v1
+
+exports[`HelloWorld > HelloWorld component renders correctly 1`] = `
+<div>
+  <p>
+    You clicked 
+    0
+     times
+  </p>
+  <button
+    onClick={[Function]}
+  >
+    Click me
+  </button>
+</div>
+`;
+
+exports[`HelloWorld > The greetee prop works 1`] = `
+<div>
+  <p>
+    You clicked 
+    0
+     times
+  </p>
+  <button
+    onClick={[Function]}
+  >
+    Click me
+  </button>
+</div>
+`;

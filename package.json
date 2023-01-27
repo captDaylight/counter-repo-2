@@ -1,0 +1,71 @@
+{
+  "name": "counter-repo-2",
+  "version": "0.0.0",
+  "description": "",
+  "license": "MIT",
+  "author": "",
+  "keywords": [],
+  "files": [
+    "dist",
+    "README.md"
+  ],
+  "main": "./dist/counter-repo-2.umd.js",
+  "module": "./dist/counter-repo-2.es.js",
+  "exports": {
+    ".": {
+      "import": "./dist/counter-repo-2.es.js",
+      "require": "./dist/counter-repo-2.umd.js"
+    }
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "test": "vitest run",
+    "watch": "vitest",
+    "coverage": "vitest run --coverage"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "eslintConfig": {
+    "env": {
+      "browser": true,
+      "node": true,
+      "es2020": true
+    },
+    "extends": [
+      "eslint:recommended",
+      "plugin:react/recommended"
+    ],
+    "parserOptions": {
+      "sourceType": "module"
+    }
+  },
+  "bugs": {
+    "url": "https://github.com/captDaylight/counter-repo-2/issues"
+  },
+  "homepage": "https://github.com/captDaylight/counter-repo-2#readme",
+  "devDependencies": {
+    "@testing-library/dom": "^8.20.0",
+    "@testing-library/react": "^13.4.0",
+    "@vitejs/plugin-react": "^3.0.1",
+    "c8": "^7.12.0",
+    "eslint": "^8.32.0",
+    "eslint-plugin-react": "^7.32.1",
+    "jsdom": "^21.1.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-test-renderer": "^18.2.0",
+    "vite": "^4.0.4",
+    "vitest": "^0.28.3"
+  }
+}
